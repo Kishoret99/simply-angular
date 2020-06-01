@@ -1,11 +1,21 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppComponent } from './app.component';
+import {
+  AppComponent,
+  AccordionComponent,
+  AccordionItemDirective,
+  AccordionButtonComponent,
+  AccordionContentComponent
+} from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AccordionComponent,
+    AccordionItemDirective,
+    AccordionButtonComponent,
+    AccordionContentComponent
   ],
   imports: [
     BrowserModule
